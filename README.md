@@ -18,6 +18,7 @@ Executable War Sample
 
 ```sh
 mvn package
+ls -lh **/sample.war
 ```
 
 [Maven 3]: http://maven.apache.org/
