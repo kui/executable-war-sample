@@ -17,5 +17,6 @@
     <module>jetty</module>
     <module>winstone</module>
     <module>non-executable</module>
+    <module>tomcat</module>
   </modules>
 </project>
