@@ -24,6 +24,25 @@ ls -lh **/sample.war
 [Maven 3]: http://maven.apache.org/
 
 
+war ファイルサイズ比較
+------------------------
+
+```sh
+$ mvn clean package
+$ ls -1s **/sample.war | sort
+  80 non-executable/target/sample.war
+ 360 winstone/target/sample.war
+1344 jetty/target/sample.war
+3344 tomcat/target/sample.war
+```
+
+増分は:
+
+	winstone: + 280KB (0.3MB)
+	   jetty: +1264KB (1.3MB)
+	  tomcat: +3264KB (3.3MB)
+
+
 Reference
 ----------------
 
