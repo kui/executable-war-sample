@@ -83,14 +83,14 @@
             <id>main-class-placement</id>
             <phase>prepare-package</phase>
             <configuration>
-              <tasks>
+              <target>
                 <move
                   todir="${project.build.directory}/${project.build.finalName}/">
                   <fileset dir="${project.build.directory}/classes/">
                     <include name="jp/k_ui/sample/Main.class" />
                   </fileset>
                 </move>
-              </tasks>
+              </target>
             </configuration>
             <goals>
               <goal>run</goal>
