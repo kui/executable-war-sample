@@ -12,11 +12,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <skipTests>true</skipTests>
   </properties>
-  
+
   <modules>
     <module>jetty</module>
     <module>winstone</module>
     <module>non-executable</module>
     <module>tomcat</module>
+    <module>glassfish</module>
   </modules>
 </project>
