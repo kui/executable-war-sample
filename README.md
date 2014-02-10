@@ -32,7 +32,6 @@ Servlet API の対応状況
 * Winstone: [2.5](https://code.google.com/p/winstone/wiki/ChangeLog)
 * Jetty: [3.0](http://www.eclipse.org/jetty/about.php) （3.1 の一部）
 * Tomcat: [3.0](http://tomcat.apache.org/tomcat-7.0-doc/index.html)
-* GlassFish: [3.0](https://glassfish.java.net/downloads/3.0.1-final.html)
 
 ただし、Jetty で `@WebListener`, `@WebServlet` といったアノテーションを使いたい時は、
 パッケージ [jetty-annotations][] が必要になる。
@@ -50,7 +49,6 @@ $ ls -1s **/sample.war | sort
   360 winstone/target/sample.war
  1344 jetty/target/sample.war
  3344 tomcat/target/sample.war
-39388 glassfish/target/sample.war
 ```
 
 増分は:
@@ -58,8 +56,6 @@ $ ls -1s **/sample.war | sort
 	winstone: + 280KB (0.3MB)
 	   jetty: +1264KB (1.3MB)
 	  tomcat: +3264KB (3.3MB)
-
-glassfish...
 
 
 フットプリント比較
